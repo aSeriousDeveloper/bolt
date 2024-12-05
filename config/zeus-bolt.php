@@ -49,6 +49,11 @@ return [
             'path' => 'app/Zeus/DataSources',
             'namespace' => 'App\\Zeus\\DataSources\\',
         ],
+
+        'extensions' => [
+            'path' => 'app/Zeus/Extensions',
+            'namespace' => 'App\\Zeus\\Extensions\\',
+        ],
     ],
 
     'defaultMailable' => \LaraZeus\Bolt\Mail\FormSubmission::class,

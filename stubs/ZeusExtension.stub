@@ -1,0 +1,74 @@
+<?php
+
+namespace {{ namespace }};
+
+use LaraZeus\Bolt\Contracts\Extension;
+
+class {{ class }} implements Extension
+{
+    public function label(): string
+    {
+        return {{ label }};
+    }
+
+    public function route(): string
+    {
+        //
+    }
+
+    public function canView(Form $form, array $data): bool|array|null
+    {
+        //
+    }
+
+    public function render(Form $form, array $data): ?string
+    {
+        //
+    }
+
+    public function formComponents(Form $form): ?array
+    {
+        //
+    }
+
+    public function preStore(Form $form, array $data): bool
+    {
+        //
+    }
+
+    public function store(Form $form, array $data): ?array
+    {
+        //
+    }
+
+    public function postStore(Form $form, array $data): void
+    {
+        //
+    }
+
+    public function SubmittedRender(Form $form, array $data): ?string
+    {
+        //
+    }
+
+    public function getItems(Form $form): array
+    {
+        //
+    }
+
+    public function getUrl(Form $form, array $extension): string
+    {
+        //
+    }
+
+    public function canDelete(Form $form, array $extension): bool
+    {
+        //
+    }
+
+    public function canDeleteResponse(Form $form, array $extension): bool
+    {
+        //
+    }
+}
+
